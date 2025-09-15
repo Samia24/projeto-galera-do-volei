@@ -35,14 +35,16 @@
 ---
 
 ## Games (Partidas)
-- **POST /games** → Criar partida (se o player cria, vira organizador dessa partida).  
-- **GET /games** → Listar todas as partidas abertas (usar params). ✅  
-- **GET /games/{id}** → Consultar partida específica.  
-- **PUT /games/{id}** → Editar partida (apenas organizador da partida).  
-- **DELETE /games/{id}** → Excluir partida (apenas organizador).  
-- **PATCH /games/{id}/close** → Encerrar partida. ✅  
-- **PATCH /games/{id}/presence/{playerId}** → Confirmar presença de jogador (feito pelo organizador).  
-- **PATCH /games/{id}/payment/{playerId}** → Marcar pagamento de jogador (feito pelo organizador).  
+- **POST /games** → Criar partida (se o player cria, vira organizador dessa partida). ✅
+- **GET /games** → Listar todas as partidas abertas. ✅  
+- **GET /games/{id}** → Consultar partida específica. ✅
+- **PUT /games/{id}** → Editar partida (apenas organizador da partida). ✅
+- **DELETE /games/{id}** → Excluir partida (apenas organizador). ✅
+- **PATCH /games/{id}/close** → Encerrar partida. ✅
+
+## GamePlayers (Partida-Jogadores)
+- **PATCH /:gameId/players/:playerId/presence** → Confirmar presença de jogador. ✅
+- **PATCH /:gameId/players/:playerId/payment** → Marcar pagamento de jogador. ✅
 
 ---
 
