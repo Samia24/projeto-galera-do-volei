@@ -51,11 +51,11 @@
 ---
 
 ## Solicitations (Solicitações)
-- **POST /games/:id/solicitations** → Jogador solicita inscrição em partida.  
-- **GET /players/:id/solicitations** → Consultar solicitações feitas por um jogador.  
-- **GET /games/:id/solicitations** → Consultar solicitações de uma partida (organizador).  
-- **PATCH /solicitations/:id/accept** → Organizador aceita solicitação.  
-- **PATCH /solicitations/:id/reject** → Organizador rejeita solicitação.  
+- **POST /games/:id/solicitations** → Jogador solicita inscrição em partida. ✅
+- **GET /players/:id/solicitations** → Consultar solicitações feitas por um jogador. ✅
+- **GET /games/:id/solicitations** → Consultar solicitações de uma partida (organizador). ✅
+- **PATCH /solicitations/:id/accepted** → Organizador aceita solicitação. ✅
+- **PATCH /solicitations/:id/viewed** → Organizador visualiza solicitação. ✅  
 
 ---
 
