@@ -46,7 +46,7 @@
 
 ## GamePlayers (Partida-Jogadores)
 - **PATCH /:gameId/players/:playerId/presence** → Confirmar presença de jogador. ✅
-- **PATCH /:gameId/players/:playerId/payment** → Marcar pagamento de jogador. ✅
+- **PATCH /:gameId/players/:playerId/payment** → Marcar pagamento de jogador. (feito pelo organizador) ✅
 
 ---
 
