@@ -42,6 +42,28 @@
     "comment": "Nada a melhorar"
 }
 // Games
+// newGame
+{
+    "id": 1,
+    "organizer": {
+        "id": 1,
+        "name": "Sâmia",
+        "age": 31,
+        "gender": "F",
+        "email": "samia@gmail.com",
+        "phone": "8688880000",
+        "adress": "Rua das Flores",
+        "neighborhood": "Corais",
+        "skill_level": "I",
+        "password": "ola2025"
+    },
+    "starts_at": "2025-09-13T18:00:00.429Z",
+    "ends_at": "2025-09-13T20:00:00.101Z",
+    "type": "M",
+    "localization": "The Beach - São João",
+    "status": "A"
+}
+// getGame
 {
     "id": 1,
     "organizer": {
@@ -88,6 +110,34 @@
     "localization": "The Beach - São João",
     "status": "A" // Aberta (A), cancelada (C), realizada (R)
 }
+// Editar partida
+{
+    "id": 1,
+    "organizer": {
+        "id": 1,
+        "name": "Sâmia",
+        "age": 31,
+        "gender": "F",
+        "email": "samia@gmail.com",
+        "phone": "8688880000",
+        "adress": "Rua das Flores",
+        "neighborhood": "Corais",
+        "skill_level": "I",
+        "password": "ola2025"
+    },
+    "starts_at": "2025-09-13T18:00:00.429Z",
+    "ends_at": "2025-09-13T20:00:00.101Z",
+    "type": "E",
+    "localization": "The Shopping - São João",
+    "status": "A"
+}
+
+// Presença (gamePlayers)
+{
+    "presence": false,
+    "paid": false
+}
+
 // Solicitação
 {
     "id": 1,
